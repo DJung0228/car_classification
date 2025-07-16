@@ -15,7 +15,7 @@
 | 출력 클래스 | 396개 차종 |
 | 사전학습 | ImageNet-1k |
 | 성능 향상 전략 | MixUp, R-Drop, SAM, EMA, TTA |
-| 최종 점수 | `0.1989` (logloss 기준) |
+| 최종 점수 | `0.1989` (Val_logloss 기준) |
 
 ---
 
@@ -112,7 +112,7 @@ python inference.py
 | Metric | Value |
 |--------|--------|
 | Best Val Accuracy | 약 97.4% |
-| Best LogLoss | **0.1989** |
+| Best Val_logloss | **0.1989** |
 | Final Score | 상위 3% 이내 예상 |
 
 ---
